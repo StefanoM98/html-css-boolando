@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    color: white;
+}
+
+/* COMMON */
+
+/* HEADER */
+.container {   
+    background-color: #ff6801;
+    height: 60px;
+    z-index: 999;
+}
+
+.header-nav {
+    height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    line-height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gender {
+    font-size: 1.2rem;
+    width: 25%;
+}
+
+.gender a {
+    padding-right: 15px;
+}
+
+.logo {
+    /* width: 50%; */
+    text-align: center;
+    width: 15%;
+    vertical-align: center;
+}
+
+.tools {
+    color: white;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.tools a {
+    padding-right: 10px;
+}
