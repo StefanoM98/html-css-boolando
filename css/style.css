@@ -15,12 +15,24 @@ a {
 }
 
 /* COMMON */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 150px;
+    width: 80%;
+    margin: 0 auto;
+}
 
 /* HEADER */
-.container {   
+.header-container {   
     background-color: #ff6801;
     height: 60px;
-    z-index: 999;
+    width: 100%;
+    position: fixed;
+    
+    top: 0;
+    left: 0;
 }
 
 .header-nav {
@@ -31,6 +43,7 @@ a {
     line-height: 60px;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .gender {
@@ -59,4 +72,76 @@ a {
 
 .tools a {
     padding-right: 10px;
+}
+
+/* MAIN */
+
+.col {
+    border: 2px solid red;
+    width: calc(100% / 3 - (40px / 3));
+    position: relative;
+}
+
+.card {
+    
+}
+
+.heart { 
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding-left: 4px;
+}
+.heart:hover{
+    color:red
+}
+.price {
+    font-size: 0.8rem;
+    display: inline;
+}
+
+.red {
+    color: red;
+}
+
+.real {
+    text-decoration: line-through
+}
+
+.label {    
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+}
+
+.discount {
+    background-color: red;
+    width: 40px;
+    padding: 3px;
+}
+
+.sostenibilità {
+    background-color: green;
+    width: 50px; 
+    padding: 3px;
+    color: white;       
+}    
+.card:hover .back{
+    display: none;
+}
+
+
+.top {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
