@@ -30,7 +30,7 @@ a {
     height: 60px;
     width: 100%;
     position: fixed;
-    
+    z-index: 1;
     top: 0;
     left: 0;
 }
@@ -144,4 +144,41 @@ a {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #1a1a1a;
+}
+.footer-container {
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+
+.footer-left ul{
+    list-style-type: none;
+}
+
+.footer-left li {
+    display: inline-block;
+    margin-right: .05rem;
+}
+
+.footer-right {
+    /* padding: 30px 130px; */
+}
+
+.footer-right p {
+    text-align: center;
+    font-size: .8rem;
 }
