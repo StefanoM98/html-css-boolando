@@ -148,22 +148,24 @@ a {
 
 
 /* FOOTER */
-footer {
-    background-color: #1a1a1a;
-}
+
+
 .footer-container {
-    margin-top: 50px;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
+    height: 90px;
     width: 100%;
-    margin: 0 auto;
-    
+    background-color: #1a1a1a;
+    color: white;
 }
 
-
+.footer-nav {
+    
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    line-height: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .footer-left ul{
     list-style-type: none;
